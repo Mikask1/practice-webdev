@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Blackjack by Darren</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="bg"></div>
+
+            <div class="content">
+                <img id="logo" src="resources/logo.png">
+                <h2 id="message">Want to play a round?</h2>
+                <h2 id="rem-cards">Remaining Cards:</h2>
+                <h2 id="cards">Cards:</h2>
+                <h2 id="player-sum">Player sum:</h2>
+                <h2 id="dealer-sum">Dealer sum:</h2>
+                <button id="start" onclick="startGame()">NEW GAME</button>
+                <button id="new-card" onclick="newCard()">HIT</button>
+                <button id="stand" onclick="stand()">STAND</button>
+                <h2 id="chips">Chips: 200</h2>
+                <script src="index.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
